@@ -44,7 +44,7 @@ header {
 }
 
 .logo {
-    height: 3.75rem;
+    height: 4rem;
 }
 
 .vector {
@@ -130,12 +130,140 @@ main button a:hover{
 
 }
 
-
 .page2{
     background: var(--black-500);
     height: 600px;
     margin-top: -50px;
-
-
 }
+
+.portfolio {
+    width: 1440px;
+    margin: auto;
+    padding-top: 100px;
+  }
+  
+  .portfolio h1 {
+    color: var(--white-title);
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 125%;
+  }
+
+  .portfolio p {
+    font-weight: 100;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    color: var(--white-title);
+  }
+  
+  .dashboard-session-1,
+  .dashboard-session-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 85px;
+  }
+
+  .dashboard-page1,
+  .dashboard-page2,
+  .dashboard-page3,
+  .dashboard-page4 {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .dashboard-page1 img,
+  .dashboard-page2 img,
+  .dashboard-page3 img,
+  .dashboard-page4 img {
+        width: 700px;
+  }
+  
+  .dashboard-page1 a,
+  .dashboard-page2 a,
+  .dashboard-page3 a,
+  .dashboard-page4 a {
+    background: transparent;
+    color: var(--purple-500);
+    border: 1px solid var(--purple-500);
+    border-radius: 8px;
+    height: 50px;
+    padding: 0 1.5rem;
+    text-decoration: none;
+    width: 256px;
+    color: var(--white-subtitle);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 0.75rem;
+    line-height: 20%;
+
+    transition: 0.3s;
+
+    margin-top: 2rem;
+
+    text-transform: uppercase;
+
+  }
+
+  .dashboard-page1 a:hover,
+  .dashboard-page2 a:hover,
+  .dashboard-page3 a:hover,
+  .dashboard-page4 a:hover {
+    background: var(--green-500);
+    border: 1px solid var(--grenn-500);
+  }
+
+
+  .portfolio img {
+    border-radius: 8px;
+  }
+  
+  .dashboard1 h1 {
+    margin-top: 5px;
+    line-height: 20px;
+    font-weight: 500;
+    letter-spacing: 0;
+    font-size: 1.75rem;
+    margin-bottom: 0px;
+    border: 0;
+  }
+  .title-dash1 {
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-between;
+    margin: 0;
+    margin-top: 20px;
+  }
+  
+  .title-dash1 p {
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.1rem;
+    letter-spacing: 0;
+    text-decoration: line-through;
+    margin: 0;
+    margin-right: 28px;
+  }
+  
+  .preco-atual-botao {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+    align-content: center;
+    color: #fff;
+    font-weight: 400;
+    margin-top: 20px;
+  }
+  
+  .preco-atual-botao p {
+    margin: 0;
+    text-align: center;
+  }
+  
 
