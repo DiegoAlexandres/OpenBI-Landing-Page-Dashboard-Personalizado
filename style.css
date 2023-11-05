@@ -1,0 +1,141 @@
+:root{
+    --white-title: #E1E1E6;
+    --white-subtitle: #FFFFFF;
+    --white-description: #C4C4CC;
+
+    --purple-500: #8257E5;
+    --green-500: #00B37E;
+
+    --black-500: #09090A;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--black-500);
+    font-family: 'Roboto', sans-serif;
+}
+
+.page1{
+    background-image: url(./assets/bg.png);
+
+}
+
+.hero {
+    width: 1440px;
+    margin: auto;
+    
+}
+
+header {
+    width: 90rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 25px;
+
+    padding-top: 3.4375rem;
+
+}
+
+.logo {
+    height: 3.75rem;
+}
+
+.vector {
+    height: 2.625rem;
+}
+
+header p {
+    color: var(--white-subtitle);
+    font-size: 1rem;
+    line-height: 20%;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    width: 750px;
+}
+
+main h1 {
+    color: var(--white-title);
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 125%;
+
+    margin-top: 4.625rem;
+
+}
+
+main span {
+    color: var(--green-500);
+}
+
+main .subtitle {
+    color: var(--white-subtitle);
+    font-size: 1.375rem;
+    line-height: 160%;
+    margin: 1rem 0 ;
+}
+
+main p {
+    color: var(--white-description);
+    font-size: 1rem;
+    line-height: 160%;
+}
+
+button{
+    background: transparent;
+    border: none;
+    display: flex;
+    gap: 20px;
+}
+
+main button a {
+    background: transparent;
+    color: var(--purple-500);
+    border: 1px solid var(--purple-500);
+    border-radius: 8px;
+    height: 50px;
+    padding: 0 1.5rem;
+    text-decoration: none;
+    width: 256px;
+    color: var(--white-subtitle);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 0.75rem;
+    line-height: 20%;
+
+    transition: 0.2s;
+
+    margin-top: 2rem;
+}
+
+main button a:hover{
+    background: var(--green-500);
+    border: 1px solid var(--grenn-500);
+
+
+}
+
+
+.page2{
+    background: var(--black-500);
+    height: 600px;
+    margin-top: -50px;
+
+
+}
+
