@@ -24,7 +24,7 @@ body {
 .page1{
     background-image: url(./assets/bg.png);
     width: 100%;
-
+    
 }
 
 .hero {
@@ -127,8 +127,6 @@ main button a {
 main button a:hover{
     background: var(--green-500);
     border: 1px solid var(--grenn-500);
-
-
 }
 
 .page2{
@@ -267,4 +265,5 @@ main button a:hover{
     text-align: center;
   }
   
+
 
