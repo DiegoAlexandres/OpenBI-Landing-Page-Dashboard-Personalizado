@@ -24,7 +24,6 @@ body {
 }
 
 
-
 /* PRIMEIRA DOBRA */
 
 .page1{
@@ -111,9 +110,8 @@ button{
 
 main button a {
     background: transparent;
-    color: var(--purple-500);
     border: 1px solid var(--purple-500);
-    border-radius: 8px;
+    border-radius: 6px;
     height: 50px;
     padding: 0 1.5rem;
     text-decoration: none;
@@ -130,6 +128,14 @@ main button a {
     transition: 0.2s;
 
     margin-top: 2rem;
+
+    text-transform: uppercase;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.button-2 {
+  background: var(--purple-500);
 }
 
 main button a:hover{
@@ -144,7 +150,7 @@ main button a:hover{
   background-image: url(./assets/bg-segunda-dobra.png);
   background-repeat: no-repeat;
   margin-top: -50px;
-  height: 1080PX;
+  height: 975PX;
   background-position: center;
   
 }
@@ -168,6 +174,7 @@ main button a:hover{
 .video {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .page2 li {
@@ -199,72 +206,88 @@ main button a:hover{
 
 }
 
+.video video {
+  width: 750px;
+  border-radius: 8px;
+}
 
 /* TERCEIRA DOBRA */
 
 .page3 {
     background-image: url(./assets/bg-terceira-dobra.png);
     background-position: center;
-    background-position: center; background-repeat: no-repeat;
-    height: 1805px;
- 
-
-
+    background-repeat: no-repeat;
+    height: 1775px;
 }
 
 .portfolio {
     width: 1440px;
     margin: auto;
-    padding-top: 100px;
+    padding-top: 30px;
   }
   
   .portfolio h1 {
     color: var(--white-title);
-    font-size: 2.5rem;
-    font-weight: 600;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 500;
     line-height: 125%;
+    text-transform: uppercase;
   }
 
   .portfolio p {
-    font-weight: 100;
-    font-size: 1rem;
-    line-height: 1.5rem;
-    margin-top: 0;
-    margin-bottom: 2rem;
     color: var(--white-title);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 125%;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+
   }
   
-  .dashboard-session-1,
-  .dashboard-session-2 {
+  .portfolio img {
+    border-radius: 8px;
+  }
+
+
+  .session-1,
+  .session-2 {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 85px;
+  
   }
 
-  .dashboard-page1,
-  .dashboard-page2,
-  .dashboard-page3,
-  .dashboard-page4 {
+  .dashboard-1,
+  .dashboard-2,
+  .dashboard-3,
+  .dashboard-4 {
     display: flex;
     flex-direction: column;
+    margin-top: 60px;
 
   }
 
-  .dashboard-page1 img,
-  .dashboard-page2 img,
-  .dashboard-page3 img,
-  .dashboard-page4 img {
+  .dashboard-3,
+  .dashboard-4 {
+    margin-top: 90px;
+  }
+
+  .dashboard-1 img,
+  .dashboard-2 img,
+  .dashboard-3 img,
+  .dashboard-4 img {
         width: 700px;
   }
   
-  .dashboard-page1 a,
-  .dashboard-page2 a,
-  .dashboard-page3 a,
-  .dashboard-page4 a {
+  .dashboard-1 a,
+  .dashboard-2 a,
+  .dashboard-3 a,
+  .dashboard-4 a {
     background: transparent;
     color: var(--purple-500);
     border: 1px solid var(--purple-500);
-    border-radius: 8px;
+    border-radius: 6px;
     height: 50px;
     padding: 0 1.5rem;
     text-decoration: none;
@@ -284,63 +307,118 @@ main button a:hover{
 
     text-transform: uppercase;
 
+    font-family: 'Roboto', sans-serif;
+
   }
 
-  .dashboard-page1 a:hover,
-  .dashboard-page2 a:hover,
-  .dashboard-page3 a:hover,
-  .dashboard-page4 a:hover {
+  .dashboard-1 a:hover,
+  .dashboard-2 a:hover,
+  .dashboard-3 a:hover,
+  .dashboard-4 a:hover {
     background: var(--green-500);
     border: 1px solid var(--grenn-500);
   }
 
+.dashboard-1 h1,
+.dashboard-2 h1,
+.dashboard-3 h1,
+.dashboard-4 h1 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-size: 28.204px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%;
 
-  .portfolio img {
-    border-radius: 8px;
-  }
+}
+
+.dashboard-1 p,
+.dashboard-2 p,
+.dashboard-3 p,
+.dashboard-4 p {
+  color: var(--white-description);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 160%;
+  text-transform: none;
+
+  margin-bottom: 16px;
+
+  width: 690px;
+
+}
+
+.button {
+  display: flex;
+  gap: 22px;
+}
+
+.button .button-2 {
+  background: var(--purple-500);
+}
   
-  .dashboard1 h1 {
-    margin-top: 5px;
-    line-height: 20px;
-    font-weight: 500;
-    letter-spacing: 0;
-    font-size: 1.75rem;
-    margin-bottom: 0px;
-    border: 0;
-  }
-  .title-dash1 {
-    display: flex;
-    justify-content: space-between;
-    justify-content: space-between;
-    margin: 0;
-    margin-top: 20px;
-  }
-  
-  .title-dash1 p {
-    font-size: 1rem;
-    text-align: center;
-    line-height: 1.1rem;
-    letter-spacing: 0;
-    text-decoration: line-through;
-    margin: 0;
-    margin-right: 28px;
-  }
-  
-  .preco-atual-botao {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    flex-direction: row-reverse;
-    align-content: center;
-    color: #fff;
-    font-weight: 400;
-    margin-top: 20px;
-  }
-  
-  .preco-atual-botao p {
-    margin: 0;
-    text-align: center;
-  }
-  
+.footer-page3 h1 {
+  color: var(--white-title);
+  text-align: center;
+  margin-top: 100px;
+
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%;
+
+  text-transform: none;
+}
+
+.footer-page3 p {
+  color: var(--white-title);
+  text-align: center;
+
+  margin-top: 10px;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 125%;
+  letter-spacing: 8px;
+}
 
 
+/* QUARTA DOBRA */
+
+.page4 {
+  background-image: url(./assets/bg-quarta-dobra.png);
+  background-position: center;
+  background-repeat: no-repeat;
+
+  height: 50px;
+
+}
+
+.hero4 {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+/*.hero4 h1 {
+  margin-top: 90px;
+
+  color: var(--white-title);
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%;
+  text-transform: uppercase;
+}
+
+.hero4 p {
+  color: var(--white-description);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 125%;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+
+}
