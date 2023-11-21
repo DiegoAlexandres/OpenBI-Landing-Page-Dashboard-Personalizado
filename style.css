@@ -48,7 +48,6 @@ header {
     gap: 25px;
 
     margin-top: 3.4375rem;
-
 }
 
 .logo {
@@ -412,6 +411,11 @@ main button a:hover{
   background-image: url(./assets/bg-quarta-dobra.png);
   background-position: center;
   background-repeat: no-repeat;
+
+  height: 2349px;
+
+  display: flex;
+  flex-direction: column;
 }
 
 
@@ -526,3 +530,74 @@ main button a:hover{
   height: 284px;
  
 }
+
+/* QUINTA DOBRA - HTML DENTRO DA QUARTA DOBRA */
+
+.page5 {
+  width: 1440px;
+  margin: auto;
+
+  margin-top: -90px;
+
+}
+
+.hero5 {
+  width: 1440px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.conteudo h1 {
+  color: var(--white-title);
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%;
+  text-transform: uppercase;
+}
+
+.conteudo p {
+  color: var(--white-description);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 125%;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+
+  margin-top: 8px;
+  margin-bottom: 56px;
+}
+
+.conteudo .text-sobre-nos {
+  width: 689px;
+  height: 414px;
+  flex-shrink: 0;
+  
+  color: var(--white-subtitle);
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 125%;
+
+  text-transform: none;
+
+  }
+
+  .conteudo img {
+    display: block;
+    margin-top: 60px;
+  }
+
+  .dash-lateral {
+    display: flex;
+    gap: 32px;
+
+    height: 657px;
+  }
+
+  .dash-lateral .img-dash {
+    border-radius: 10px;
+  }
