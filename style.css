@@ -58,6 +58,7 @@ header {
     height: 2.625rem;
 }
 
+
 header p {
     color: var(--white-subtitle);
     font-size: 1rem;
@@ -584,20 +585,143 @@ main button a:hover{
 
   text-transform: none;
 
-  }
+}
 
-  .conteudo img {
-    display: block;
-    margin-top: 60px;
-  }
+.conteudo img {
+  display: block;
+  margin-top: 60px;
+}
 
-  .dash-lateral {
-    display: flex;
-    gap: 32px;
+.dash-lateral {
+  display: flex;
+  gap: 32px;
 
-    height: 657px;
-  }
+  height: 657px;
+}
 
-  .dash-lateral .img-dash {
-    border-radius: 10px;
-  }
+.dash-lateral .img-dash {
+  border-radius: 10px;
+}
+
+/* SEXTA DOBRA */
+
+.page6 {
+  margin-top: -400px;
+  width: 100%;
+  background-image: url(./assets/bg-quarta-dobra.png);
+}
+
+.hero6 {
+  width: 1440px;
+  margin: auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.form {
+  width: 638px;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.form p {
+  margin-top: 86px;
+  margin-bottom: 8px;
+
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 125%;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+
+  color: var(--white-description);
+}
+
+.form h1 {
+  color: var(--white-title);
+  font-size: 38px;
+  font-weight: 500;
+  line-height: 125%;
+  text-transform: uppercase;
+
+  margin-bottom: 50px;
+}
+
+label {
+  color: var(--white-title);
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: 1.6px;
+}
+
+input{
+  width: 638px;
+  height: 55px;
+
+  margin-top: 6px;
+  margin-bottom: 25px;
+
+  border-radius: 4.22px;
+  border: 1px solid #8257E5;
+  background: rgba(130, 87, 229, 0.10);
+}
+
+input::placeholder{
+  font-family: 'Roboto', sans-serif;
+  color: var(--white-title);
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 125%;
+  letter-spacing: 1.4px;
+
+  padding: 17px 15px;
+}
+
+.btn {
+  justify-content: flex-end;
+}
+
+.button-form {
+  border-radius: 4.216px;
+  border: 1.022px solid var(--purple-500);
+  background: var(--purple-500);
+  color: var(--white-subtitle);
+
+  max-width: 146px;
+  width: 100%;
+  padding: 10px 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: .3s ease;
+
+}
+
+.button-form:hover{
+  background: var(--green-500);
+  border: 1.022px solid var(--green-500);
+}
+
+.side-left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon{
+  width: 450px;
+
+  margin-top: 50px;
+
+}
+
+
