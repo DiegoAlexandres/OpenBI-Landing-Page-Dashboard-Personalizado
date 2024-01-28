@@ -35,9 +35,8 @@ body {
 
 .bg-page-1{
   position: absolute;
-  z-index: -1;
   top: 0;
-
+  z-index: -1;
 
   background-position: center center;
 }
@@ -513,9 +512,6 @@ main button a:hover{
 /* QUARTA DOBRA */
 
 .page4 {
-  background-image: url(./assets/bg-quarta-dobra.webp);
-  background-position: center;
-  background-repeat: no-repeat;
 
   height: 2349px;
 
@@ -712,7 +708,6 @@ main button a:hover{
 .page6 {
   margin-top: -400px;
   width: 100%;
-  background-image: url(./assets/bg-quarta-dobra.webp);
 }
 
 .hero6 {
