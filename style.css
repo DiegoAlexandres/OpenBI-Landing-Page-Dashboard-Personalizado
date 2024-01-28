@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root{
     --white-title: #E1E1E6;
     --white-subtitle: #FFFFFF;
@@ -10,12 +16,6 @@
 }
 
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 
 body {
     background-color: var(--black-500);
@@ -27,16 +27,26 @@ body {
 /* PRIMEIRA DOBRA */
 
 .page1{
-    background-image: url(./assets/bg.png);
     background-position: top center;
     background-repeat: no-repeat;
     width: 100%;
     
 }
 
+.bg-page-1{
+  position: absolute;
+  z-index: -1;
+  top: 0;
+
+
+  background-position: center center;
+}
+
 .hero1 {
     width: 1440px;
     margin: auto;
+
+    padding: 32px;
     
 }
 
@@ -244,14 +254,23 @@ main button a:hover{
 
 /* SEGUNDA DOBRA */
 
+.bg-page-2{
+  position: absolute;
+  z-index: -10;
+
+  background-position: center center;
+  
+}
+
+
 .page2{
-  background-image: url(./assets/bg-segunda-dobra.png);
   background-repeat: no-repeat;
-  margin-top: -50px;
+  margin-top: -10px;
   height: 975PX;
   background-position: center;
   
 }
+
 
 .hero2 {
   width: 1440px;
@@ -312,11 +331,12 @@ main button a:hover{
 
 /* TERCEIRA DOBRA */
 
-.page3 {
-    background-image: url(./assets/bg-terceira-dobra.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 1775px;
+.bg-page-3{
+  position: absolute;
+  z-index: -10;
+  top: 100px;
+
+  background-position: center center;
 }
 
 .portfolio {
@@ -493,7 +513,7 @@ main button a:hover{
 /* QUARTA DOBRA */
 
 .page4 {
-  background-image: url(./assets/bg-quarta-dobra.png);
+  background-image: url(./assets/bg-quarta-dobra.webp);
   background-position: center;
   background-repeat: no-repeat;
 
@@ -692,7 +712,7 @@ main button a:hover{
 .page6 {
   margin-top: -400px;
   width: 100%;
-  background-image: url(./assets/bg-quarta-dobra.png);
+  background-image: url(./assets/bg-quarta-dobra.webp);
 }
 
 .hero6 {
@@ -809,3 +829,15 @@ input::placeholder{
 }
 
 
+
+/* RESPONSIVIDADE */
+
+@media(max-width: 450px){
+  .gap{
+    gap: 15px;
+}
+
+  .bg-dashboard{
+    width: 60px;
+}
+}
